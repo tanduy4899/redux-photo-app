@@ -35,7 +35,7 @@ function AddEditPage(props) {
     return new Promise(resolve => {
       console.log('Form submit: ', values);
       console.log('tessstsduyuyuyuyuyu')
-
+      console.log('test')
       setTimeout(() => {
         if (isAddMode) {
           const newPhoto = {
