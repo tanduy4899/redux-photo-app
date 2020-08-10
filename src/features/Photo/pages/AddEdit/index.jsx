@@ -21,19 +21,22 @@ function AddEditPage(props) {
     console.log({ photos: state.photos, photoId, foundPhoto });
     return foundPhoto;
   });
-  console.log({ photoId, editedPhoto })
+  console.log({photoId, editedPhoto})
 
   const initialValues = isAddMode
-    ? {
-      title: '',
-      categoryId: null,
-      photo: '',
-    }
-    : editedPhoto;
+      ? {
+        title: '',
+        categoryId: null,
+        photo: '',
+      }
+      : editedPhoto;
+
+  console.log('fds');
 
   const handleSubmit = (values) => {
     return new Promise(resolve => {
       console.log('Form submit: ', values);
+      console.log('tessstsduyuyuyuyuyu')
       console.log('tessstsduyuyuyuyuyu')
       console.log('test')
       setTimeout(() => {
