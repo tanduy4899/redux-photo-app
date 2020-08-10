@@ -33,6 +33,7 @@ function AddEditPage(props) {
 
   console.log('fds');
 
+  console.log('fds')
   const handleSubmit = (values) => {
     return new Promise(resolve => {
       console.log('Form submit: ', values);
