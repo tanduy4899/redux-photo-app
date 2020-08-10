@@ -31,9 +31,11 @@ function AddEditPage(props) {
     }
     : editedPhoto;
 
+  console.log('fds')
   const handleSubmit = (values) => {
     return new Promise(resolve => {
       console.log('Form submit: ', values);
+      console.log('tessstsduyuyuyuyuyu')
       console.log('tessstsduyuyuyuyuyu')
       console.log('test')
       setTimeout(() => {
