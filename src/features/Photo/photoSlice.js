@@ -99,6 +99,8 @@ const photo = createSlice({
   }
 });
 
+
+
 const { reducer, actions } = photo;
 export const { addPhoto, removePhoto, updatePhoto } = actions;
 export default reducer;
