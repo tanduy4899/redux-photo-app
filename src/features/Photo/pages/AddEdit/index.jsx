@@ -36,6 +36,7 @@ function AddEditPage(props) {
       console.log('Form submit: ', values);
       console.log('Form submit1: ', values);
       console.log('Form submit2: ', values);
+      console.log('Form submit3: ', values);
 
       setTimeout(() => {
         if (isAddMode) {
